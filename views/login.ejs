@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%- include('./partials/css'); %>
+  <title>Travel Experts - Login</title>
+</head>
+
+<body>
+  <%- include('./partials/nav'); %>
+  
+  <div class="login">
+    <form id="login"  action="https://formspree.io/meqrpezq" method="post">
+      <legend>LOGIN</legend><br>
+        <p>Mandatory fields marked with *</p>
+          <label for="mail">E-mail:</label> 
+            <span class="required"> * </span>
+              <input type="email" id="mail" name="user_email" required>    
+          <label for="pwd">Password:</label> 
+            <span class="required"> * </span>
+              <input type="password" pattern=".{8,}" id="pwd" name="pwd" required title="8 characters minimum">
+        <p>Password minimum 8 characters</p>
+      <div class="button"><button type="submit">SUBMIT</button></div>
+    </form>
+  </div>
+
+  <script src="main.js"></script> 
+
+  <%- include('./partials/footer'); %>
+  
+</body> 
+
+</html>
+
+
+

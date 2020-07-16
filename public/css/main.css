@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+/* Resets */
+
+* {
+  margin: 0; 
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Layout for the page */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+  line-height: 1.2;
+  letter-spacing: 5px;
+  font-variant: small-caps;
+  
+  background-color: rgba(122, 109, 105, 0.322); 
+}
+
+/* ---- Navigation bar layout ---- */
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  color:white;
+  background-color: coral;
+}
+
+nav ul li {
+  font-size: 16px;
+  list-style: none;
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  
+  color:white;
+}
+
+nav h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+nav h4 {
+  margin-bottom: 10px;
+}
+
+/* Linear gradients to show when the cursor hovers the link  */
+
+a:hover {
+  background-image: linear-gradient(teal, lightblue);
+} 
+
+h4:hover {
+  background-image: linear-gradient(teal, lightblue);
+} 
+
+a:active {
+  background-image: linear-gradient(teal, lightblue);
+}
+
+.current {
+  background-color: teal
+}
+
+/* ---- Hero Section ---- */
+
+header {
+  min-height: 850px;
+
+  background-image: url(https://picsum.photos/id/16/1000/1250);
+  background-position: bottom;
+  background-size: cover;
+
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+/* Announcement text, sign up link */
+
+header h1  {
+  margin-top: 40px;
+
+  font-size: 55px;
+  text-align: center;
+
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header p {
+  margin-top: 50px;
+
+  font-size: 60px;
+  text-align: center;
+
+  color: white;
+}
+
+header p:hover {
+  color: coral;
+ }
+
+/* ---- Gallery Section ---- */
+
+#banner_1 {
+  padding: 25px 0px 25px 0px;
+  text-align: center;
+  
+  font-size: 35px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  
+  color: white;
+  background-color: coral;
+}
+
+/* Gallery linked to forEach loop in main.js file */
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.gallery img {
+  margin: 2em; 
+}
+
+.gallery a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+figcaption {
+  margin: 20px;
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-family: 'Roboto', sans-serif;
+
+  color: teal;
+}
+
+/* ---- Comment Form /Contact Us Section ---- */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+
+  align-items: center;
+  overflow: hidden;
+
+  font-family: 'Roboto', sans-serif;
+
+  background-color: rgba(122, 109, 105, 0.322); 
+} 
+
+/* ---- Comment Form ---- */
+
+.container form {
+  margin: 5px;
+  width: 400px;
+
+  border: 5px solid teal;
+  border-radius: 1em;
+
+  text-align: center;
+}
+
+.container legend {
+  margin-top: 5px;
+  font-size: 25px;
+
+  text-align: center;
+}
+
+.container label {
+  margin: 5px;
+  width: 130px;
+
+  padding-bottom:  5px; 
+  display: inline-block;
+
+  text-align: right;
+  font-size: 18px;
+}
+
+.container input, textarea { 
+  width: 200px;
+  border: 1 px solid #999;
+} 
+
+.container textarea {
+  height: 5em;
+  vertical-align: top;
+  overflow: auto; 
+}
+
+input.error {
+  border-color: red;
+}
+
+button {
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  
+  color:white;
+  background-color: coral;
+}
+
+/* ---- Contact US Information Section ---- */
+
+.container ul {
+  padding: 10px;
+  list-style: none;
+
+  line-height: 1.5;
+  font-size: 18px;
+
+  border: 5px solid teal;
+}
+
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  align-content: center;
+  padding: 20px 0px 20px 0px;
+  text-decoration: none;
+
+  font-size: 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  color:white;
+  background: coral;
+}
+
+/* ---------login form section-------------*/
+.login {
+  height: 70vh;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login form {
+  width: 450px;
+  margin-top: 250px;
+  margin-bottom: 240px;
+
+  padding: 1.5em;
+  border-radius: 1em;
+  border: 5px solid teal;
+
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+
+  color: black;
+  background-color: rgba(122, 109, 105, 0.13); 
+}
+
+.login legend {
+  font-size: 25px;
+  text-align: center;
+}
+
+.login label {
+  margin: 10px;
+  display: inline-block;
+
+  padding-top: 15px;
+  text-align: right;
+
+  font-size: 18px;
+}
+ 
+.login input, textarea { 
+  width:  160px; 
+  height: 25px;
+  padding-bottom: 10px;
+
+  border: 1 px solid #999;
+} 
+
+.login p {
+  margin-top: 20px;
+  text-align: center;
+
+  font-size: 12px;
+}
+
+#mail {
+  width: 200px;
+}
+
+.required {
+  color: red;
+}
+
+.login button {
+  margin-left: 140px;
+}
+
+/* ---- Registration Form ---- */
+
+.register {
+  height: 500px;
+
+  display:flex;
+  justify-content: center;
+  text-align: left;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.register form {
+  width: 450px;
+  border-radius: 1em;
+  border: 5px solid teal;
+
+  font-family: 'Roboto', sans-serif;
+
+  color: black;
+  background-color: rgba(122, 109, 105, 0.13); 
+}
+
+.register legend {
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.register label {
+  margin: 10px;
+  display: inline-block;
+
+  font-size: 18px;
+  padding-top: 5px;
+  text-align: left;
+}
+
+.register p {
+  font-size: 12px;
+  padding-top: 5px;
+  text-align: center;
+
+}
+
+.register input, textarea { 
+  width:  155px; 
+  height: 25px;
+  margin-right: 5px;
+    
+  border: 1 px solid #999;
+} 
+
+span.required {
+  color: red;
+}
+
+.register button {
+  margin-right: 135px;
+}
+
+/* ---- Footer ---- */
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  color:white;
+  background: coral;
+} 
+
+/* ---- Necessary to view the gallery with a smaller viewport */
+
+@media (orientation: portrait) {
+  .gallery {
+    flex-wrap: wrap;
+    width: 250px;
+  }
+}

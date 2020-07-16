@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%- include('./partials/css'); %>
+  <title>Travel Experts - Destinations</title>
+</head>
+
+<%- include('./partials/nav'); %>
+
+
+  <div class="gallery"></div>
+  
+  <figure>
+    <img src="http://picsum.photos/id/<%= id %>/400" alt="<%= title %>">
+    <figcaption>Hello this is about <%= title %>!</figcaption>
+  </figure>
+
+  <%- include('./partials/footer'); %>
+  
+</html>
