@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%- include('./partials/css'); %>
+  <title>Travel Experts</title>
+</head>
+
+<body>
+  <%- include('./partials/nav'); %>
+
+  <header>
+    <h1>Access our Specials and Discounts</h1>
+      <a href="register"><p>|---- Sign Up Today! ----|</p></a>
+  </header>
+
+  <div id="banner_1">
+    <p>Examples of Some Destinations We Offer</p>
+  </div>
+    
+  <div class="gallery"></div> 
+
+  <div id="contact">Contact Us</div>
+  <div class="container">
+    <form action="https://formspree.io/meqrpezq" method="post">
+      <legend>Questions, Comments?</legend>
+        <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" required> 
+        <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_email" required>
+        <label for="msg">Message:</label>
+          <textarea id="mag" name="user_message" required></textarea>
+      <div class="button"><button type="submit">Send your message</button></div>
+    </form>
+
+    <ul>
+      <h3>Calgary, Canada</h3><br>
+        <li>1613 11 Ave. SW</li>
+        <li>Calgary, AB. T3C 0N3</li>
+        <li>Reception: 403-837-7400</li>
+        <li>Manager: David Hahner</li>
+        <li>David.Hahner@edu.sait.ca</li>
+    </ul>
+    <ul>
+      <h3>New York, USA</h3><br>
+        <li>20 West 34th St.</li>
+        <li>New York, USA 10118</li>
+        <li>Reception: 212-736-3100</li>
+        <li>Manager: Sally May</li>
+        <li>S.M@edu.sait.ca</li>
+    </ul>
+    <ul>
+      <h3>London, UK.</h3><br>
+        <li>Spur Road</li>
+        <li>London,GB SW1A 1AA</li>
+        <li>Reception:44 3031237300</li>
+        <li>Manager: Peter Pint</li>
+        <li>P.P@edu.sait.ca</li>
+    </ul>
+  </div>
+
+  <script src="main.js"></script> 
+  
+  <%- include('./partials/footer'); %>
+  
+</body> 
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+   
+
