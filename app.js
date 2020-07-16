@@ -7,14 +7,14 @@ const dotenv = require('dotenv').config();
 // Models
 const Destinations = require('./models/destinations.js');
 
-// create express app
+// create express appS
 const app = express();
 app.set('view engine', 'ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Hide creds from repo
-const mongoDB = process.env.MONGODB_URL;
+const mongoDB = process.env.MONGODB_URI;
 
 // Set up default mongoose connection
 mongoose.connect(mongoDB, { useUnifiedTopology: true,useNewUrlParser: true });
