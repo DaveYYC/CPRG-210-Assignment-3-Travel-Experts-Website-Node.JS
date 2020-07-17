@@ -3,7 +3,7 @@ const destinations = [
     id: 1022,
     title: 'Alaska',
     description: 'picture of the northern lights',
-    link: 'http://travelalaska.com/'
+    link: 'http://travelalaska.com/',
   },
   {
     id: 1029, 

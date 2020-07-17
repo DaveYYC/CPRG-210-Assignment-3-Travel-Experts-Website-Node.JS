@@ -176,6 +176,11 @@ figcaption {
   color: teal;
 }
 
+ figure p {
+  font: 14px;
+  color: blue;
+
+}
 /* ---- Comment Form /Contact Us Section ---- */
 
 .container {
