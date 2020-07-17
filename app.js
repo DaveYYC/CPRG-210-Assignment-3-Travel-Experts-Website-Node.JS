@@ -13,8 +13,6 @@ app.set('view engine', 'ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-MONGODB_URL=mongodb+srv://DaveYYC:Davhah20181!@assignment.ndpnv.mongodb.net/Assignment?retryWrites=true&w=majority;
-
 // Hide creds from repo
 const mongoDB = process.env.MONGODB_URL;
 
