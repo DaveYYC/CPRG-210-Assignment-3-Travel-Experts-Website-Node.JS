@@ -1,6 +1,6 @@
 
 
-fetch('http://localhost:3000/api/destinations')
+fetch('https://assignmentdh.herokuapp.com/')
   .then(function(response){
     return response.json();
   })

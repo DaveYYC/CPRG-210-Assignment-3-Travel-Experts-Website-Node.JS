@@ -4,6 +4,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
 const cors = require('cors');
+// const moment = require('moment'); 
+
 
 // Models
 const Destinations = require('./models/destinations.js');
@@ -74,6 +76,7 @@ app.get('/api/destinations', function(request, response){
     response.json(destinations);
   });
 });
+
 
 
 app.use(function(req, res, next) {
