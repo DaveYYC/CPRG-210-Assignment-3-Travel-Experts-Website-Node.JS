@@ -30,12 +30,6 @@ db.once('open', function() {
   console.log('Connected to DB...');
 });
 
-// cors origin URL - Allow inbound traffic from origin
-corsOptions = {
-  origin: "https://assignmentdh.herokuapp.com/",
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-};
-app.use(cors(corsOptions));
 
 // Endpoint handler for the home page
 app.get('/', function(request, response){
