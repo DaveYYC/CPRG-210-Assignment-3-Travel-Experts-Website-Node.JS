@@ -1,6 +1,6 @@
 
 
-fetch('https://assignmentdh.herokuapp.com/api/destinations')
+fetch('http://localhost:3000/api/destinations')
   .then(function(response){
     return response.json();
   })
@@ -25,8 +25,6 @@ fetch('https://assignmentdh.herokuapp.com/api/destinations')
 });
 
 
-
- 
 
 
 
