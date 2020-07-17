@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
-// const cors = require('cors');
+const cors = require('cors');
 // const moment = require('moment'); 
 
 
@@ -33,12 +33,12 @@ db.once('open', function() {
   console.log('Connected to DB...');
 });
 
-  // cors origin URL - Allow inbound traffic from origin
-  // corsOptions = {
-  //   origin: "https://assignmentdh.herokuapp.com",
-  //   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-  // };
-  // app.use(cors(corsOptions));
+  cors origin URL - Allow inbound traffic from origin
+  corsOptions = {
+    origin: "https://assignmentdh.herokuapp.com",
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+  };
+  app.use(cors(corsOptions));
 
 
   app.use(express.static(path.join(__dirname, 'public')));
