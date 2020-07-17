@@ -11,7 +11,7 @@ const Destinations = require('./models/destinations.js');
 /* Mongoose/MongoDB Connection */
 /*******************************/
 
-const dbURI = process.env.MONGODB_URL;
+const dbURI = process.env.MONGODB_URI;
 mongoose.connect(dbURI, {
   useUnifiedTopology: true,
   useNewUrlParser: true
