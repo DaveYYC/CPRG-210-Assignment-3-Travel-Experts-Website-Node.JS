@@ -3,6 +3,7 @@ const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
+const cors = require('cors');
 
 // Models
 const Destinations = require('./models/destinations.js');
