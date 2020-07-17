@@ -4,6 +4,7 @@ const destinations = [
     title: 'Alaska',
     description: 'picture of the northern lights',
     link: 'http://travelalaska.com/',
+    paragraph: "More info here...................."
   },
   {
     id: 1029, 

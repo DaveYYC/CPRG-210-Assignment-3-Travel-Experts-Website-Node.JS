@@ -4,7 +4,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
 const cors = require('cors');
-// const moment = require('moment'); 
+const moment = require('moment'); 
 
 
 // Models
@@ -13,8 +13,6 @@ const Destinations = require('./models/destinations.js');
 // create express appS
 const app = express();
 app.set('view engine', 'ejs');
-
-app.use(express.static(path.join(__dirname, 'public')));
 
 // Hide creds from repo
 const mongoDB = process.env.MONGODB_URL;
@@ -41,7 +39,7 @@ corsOptions = {
   app.use(cors(corsOptions));
 
 
-  app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Endpoint handler for the home page
 app.get('/', function(request, response){
