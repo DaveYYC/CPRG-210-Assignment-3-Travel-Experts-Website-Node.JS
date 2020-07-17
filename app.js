@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Hide creds from repo
-const mongoDB = process.env.MONGODB_URI;
+const mongoDB = process.env.MONGODB_URL;
 
 // Set up default mongoose connection
 mongoose.connect(mongoDB, { useUnifiedTopology: true,useNewUrlParser: true });
@@ -29,7 +29,6 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', function() {
   console.log('Connected to DB...');
 });
-
 
 // Endpoint handler for the home page
 app.get('/', function(request, response){

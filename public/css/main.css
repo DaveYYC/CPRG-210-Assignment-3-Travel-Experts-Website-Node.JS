@@ -60,9 +60,9 @@ nav h1 {
   margin-bottom: 10px;
 }
 
-nav h4 {
+/* nav h4 {
   margin-bottom: 10px;
-}
+} */
 
 /* Linear gradients to show when the cursor hovers the link  */
 
@@ -239,7 +239,7 @@ button {
   margin: 10px;
   
   color:white;
-  background-color: coral;
+  background-color: teal;
 }
 
 /* ---- Contact US Information Section ---- */
@@ -425,4 +425,35 @@ footer {
     flex-wrap: wrap;
     width: 250px;
   }
+}
+
+nav ul {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+@media (orientation: landscape) {
+  /* Apply these styles when the screen is in 'landscape' orientation (i.e. horizontal nav on desktop) */
+  nav ul {
+    display: flex;
+    
+  }
+  h4 {
+    padding: 10px;
+  }
+
+  nav ul li {
+    /* This is a shorthand for `flex: 1 1 auto`. 
+    The items will grow to fill any empty space equally. */
+    flex: auto;
+  }
+
+  /* Don't show hamburger menu on desktop */
+  nav button {
+    display: none;
+  }
+
 }
