@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
-const cors = require('cors');
+// const cors = require('cors');
 // const moment = require('moment'); 
 
 
@@ -34,11 +34,11 @@ db.once('open', function() {
 });
 
   // cors origin URL - Allow inbound traffic from origin
-  corsOptions = {
-    origin: "https://dashboard.heroku.com",
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-  };
-  app.use(cors(corsOptions));
+  // corsOptions = {
+  //   origin: "https://dashboard.heroku.com",
+  //   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+  // };
+  // app.use(cors(corsOptions));
 
 // Endpoint handler for the home page
 app.get('/', function(request, response){
