@@ -1,6 +1,6 @@
 
 
-fetch('https://assignmentdh.herokuapp.com')
+fetch('https://assignmentdh.herokuapp.com/api/destinations')
   .then(function(response){
     return response.json();
   })
