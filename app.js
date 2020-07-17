@@ -40,6 +40,9 @@ db.once('open', function() {
   // };
   // app.use(cors(corsOptions));
 
+
+  app.use(express.static(path.join(__dirname, 'public')));
+
 // Endpoint handler for the home page
 app.get('/', function(request, response){
   response.render('index',{});
