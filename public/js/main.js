@@ -1,4 +1,5 @@
-
+// Since the execution of this `app.js` script will be long finished by the time the following `fetch()` call returns data, 
+//we need to put our loop inside the second .then().  
 
 fetch('https://assignmentdh.herokuapp.com/api/destinations')
   .then(function(response){
@@ -8,10 +9,13 @@ fetch('https://assignmentdh.herokuapp.com/api/destinations')
 
   const imgList = destinations;
 
+  // Variable where we will store our img tags //
   let imgTemplate = ''; 
 
+  // Flex container for images //
   const gallery = document.querySelector('.gallery'); 
 
+  // Loop through items using forEach //
   imgList.forEach(function(item){
     imgTemplate += 
       `<figure>
@@ -21,6 +25,7 @@ fetch('https://assignmentdh.herokuapp.com/api/destinations')
         </a>
       </figure>`
   });
+    // Add HTML img string to the gallery container //
     gallery.innerHTML = imgTemplate;
 });
 
