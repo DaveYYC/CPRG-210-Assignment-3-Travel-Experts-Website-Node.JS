@@ -53,5 +53,3 @@ fetch('https://assignmentdh.herokuapp.com/api/destinations')
 
 
 
-
-

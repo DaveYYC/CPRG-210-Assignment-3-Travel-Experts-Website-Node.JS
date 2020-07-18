@@ -418,12 +418,16 @@ footer {
   overflow: hidden;
 
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Montserrat Alternates', sans-serif;
 
   color:white;
   background: coral;
 } 
+
+#footerYear {
+  font-size: 14px;
+}
 
 /* ---- Necessary to view the gallery with a smaller viewport */
 

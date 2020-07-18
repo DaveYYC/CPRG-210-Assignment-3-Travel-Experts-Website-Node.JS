@@ -1,9 +1,15 @@
+<!-- Footer information for the bottom of all the pages -->
 
 <footer>
-  Copyright &copy 2020 Travel Experts
+  <h4>Travel Experts &copy</h4>
+
+  <p id="footerYear"></p>
+
+  <script>
+    // Adds the current 4 digit year into the footer //
+    const footerYear = new Date();
+     document.getElementById('footerYear').innerHTML = footerYear.getFullYear();
+  </script>
+  
 </footer>
 
-<!-- <script type="text/JavaScript">
-  const theDate=new Date() 
-  document.write(theDate.getFullYear())
-  </script> -->
