@@ -35,8 +35,7 @@
 figure {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
+  /* justify-content: center; */
   border: 5px solid teal;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
@@ -47,14 +46,17 @@ figcaption {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  align-content: center;
   font-family: 'Roboto', sans-serif;
   color: teal;
 }
 
 figure p {
+  display: flex;
+  flex-wrap: wrap;
   color: black;
+  justify-content: left;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
+  
 
 }
