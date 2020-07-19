@@ -13,8 +13,6 @@
   background-color: rgba(122, 109, 105, 0.322); 
 } 
 
-
-
 .container form {
   margin: 5px;
   width: 400px;
@@ -65,6 +63,7 @@ button {
   color:white;
   background-color: teal;
 }
+
 /* ---------login form section-------------*/
 .login {
   height: 70vh;

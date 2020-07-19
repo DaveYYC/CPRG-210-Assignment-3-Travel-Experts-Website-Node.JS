@@ -8,8 +8,9 @@ const dbSeed = require('./seeds/destinations.js');
 // Define model //
 const Destinations = require('./models/destinations.js');
 
-
+//---------------------------------------------------------------//
 //------------- Mongoose/MongoDB Connection ---------------------//
+//---------------------------------------------------------------//
 
 const dbURI = process.env.MONGODB_URL;
 mongoose.connect(dbURI, {
