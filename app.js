@@ -56,12 +56,11 @@ app.get('/register', function(request, response){
   response.render('register',{});
 });
 
-// Define an endpoint handler for the individual destinations pages //
-app.get('/Destinations/:id', function(request, response){
-  
+// Endpoint handler for the individual destinations pages //
+app.get('/:id', function(request, response){
+
 // .findOne returns the first object it finds //
-// .find will always return an array, even if it only finds one //
-Destinations.find({'id': request.params.id}, function(error, destinations) {
+Destinations.findOne({'id': request.params.id}, function(error, destinations) {
   
   // Check for IDs that are not in the list //
   if (!destinations) {
