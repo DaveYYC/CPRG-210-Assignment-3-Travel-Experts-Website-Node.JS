@@ -32,20 +32,25 @@
   font-size: 12px;
 }
 
+/*----------------------------*/
+/*---- Destinations Page ---- */
+/*----------------------------*/
+
 figure {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
-  border: 5px solid teal;
+  justify-content: center;
+  /* margin-right: 5px; */
+  border: 2px solid teal;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
-  margin-right: 5px;
+  
 }
 
 figcaption {
   font-size: 24px;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Roboto', sans-serif;
   color: teal;
 }
