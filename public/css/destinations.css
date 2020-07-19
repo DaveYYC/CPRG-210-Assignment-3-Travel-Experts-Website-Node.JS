@@ -36,29 +36,32 @@
 /*---- Destinations Page ---- */
 /*----------------------------*/
 
+figcaption {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+
+  color: coral;
+  background-color: teal;
+}
+
 figure {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
   
   border: 2px solid teal;
   font-variant: small-caps;
-  font-family: 'Roboto', sans-serif;
+  
   
 }
 
-figcaption {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  justify-content: center;
-  color: teal;
-}
 
 figure p {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   color: black;
   justify-content: left;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
