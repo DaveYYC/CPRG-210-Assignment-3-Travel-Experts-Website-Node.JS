@@ -30,7 +30,7 @@
 
 .gallery a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   color: teal;
   font-family: 'Roboto', sans-serif;
 }
@@ -44,24 +44,20 @@ figcaption {
   font-weight: bold;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: teal;
+  background-color: teal;
+  color: coral
 }
 
 figure {
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center; */
+  justify-content: center;
   
   border: 2px solid teal;
   font-variant: small-caps;
-  
-  
 }
 
-
 figure p {
-  /* display: flex;
-  flex-wrap: wrap; */
   color: black;
   justify-content: left;
   font-size: 16px;
