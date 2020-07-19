@@ -51,7 +51,7 @@ figcaption {
 figure {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   
   border: 2px solid teal;
   font-variant: small-caps;

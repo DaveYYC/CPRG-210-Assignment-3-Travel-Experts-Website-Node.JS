@@ -12,13 +12,13 @@
   <%- include('./partials/nav'); %>
 
   <figcaption><%= title %></figcaption>
-  
+
   <figure>
     <img src="http://picsum.photos/id/<%= id %>/400" alt="<%= title %>">
-    <p><%= intro %><br>
+    <%= intro %><br>
     -<%= fact1 %><br>
     -<%= fact2 %><br>
-    -<%= fact3 %></p>
+    -<%= fact3 %>
   </figure>
 
   <%- include('./partials/footer'); %>
