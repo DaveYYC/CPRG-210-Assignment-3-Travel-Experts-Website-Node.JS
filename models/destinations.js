@@ -8,7 +8,10 @@ const gallerySchema = new mongoose.Schema(
     title:        String,
     description:  String,
     link:         String,
-    paragraph:    String
+    intro:        String,
+    fact1:        String,
+    fact2:        String,
+    fact3:        String
   }
 );
 
