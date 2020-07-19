@@ -20,6 +20,7 @@
   max-width: 1000px;
   margin: auto;
   padding: 5px;
+  
 
 }
 
@@ -30,6 +31,8 @@
 .gallery a {
   text-decoration: none;
   font-size: 12px;
+  color: teal;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*----------------------------*/
@@ -40,9 +43,8 @@ figcaption {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
-
-  color: coral;
-  background-color: teal;
+  font-family: 'Roboto', sans-serif;
+  color: teal;
 }
 
 figure {
