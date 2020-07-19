@@ -56,27 +56,6 @@ app.get('/register', function(request, response){
   response.render('register',{});
 });
 
-// Endpoint handler for the contact section //
-// app.get('/#contact', function(request, response){
-//   response.render('contact',{});
-// });
-
-// Define an endpoint handler for the individual destinations pages //
-app.get('/destinations/:id', function(request, response){
-  
-// model.findOne returns the first object it finds //
-// model.find will always return an array, even if it only finds one //
-Destinations.findOne({'/destinations/id': request.params.id}, function(error, destinations) {
-  
-  // Check for IDs that are not in the list //
-  if (!destinations) {
-    return response.send('Invalid ID.');
-  }
-  // Compile view and respond //
-  response.render('destinations',destinations);
-  });
-});
-
 // This is the endpoint that the frontend gallery script calls //
 app.get('/api/destinations', function(request, response){
 
@@ -84,6 +63,22 @@ Destinations.find(function(error, destinations) {
   response.json(destinations);
   });
 });
+
+// Define an endpoint handler for the individual destinations pages //
+app.get('/destinations/:id', function(request, response){
+  
+  // model.findOne returns the first object it finds //
+  // model.find will always return an array, even if it only finds one //
+  Destinations.findOne({'/destinations/id': request.params.id}, function(error, destinations) {
+    
+    // Check for IDs that are not in the list //
+    if (!destinations) {
+      return response.send('Invalid ID.');
+    }
+    // Compile view and respond //
+    response.render('destinations',destinations);
+    });
+  });
 
 // If no file or endpoint found, send a 404 error as a response to the browser //
 app.use(function(req, res, next) {
