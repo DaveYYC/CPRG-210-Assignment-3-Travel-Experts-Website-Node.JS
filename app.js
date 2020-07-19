@@ -56,12 +56,6 @@ app.get('/register', function(request, response){
   response.render('register',{});
 });
 
-app.get('/404', function(request, response){
-  response.render('404',{});
-});
-
-
-
 // Endpoint handler for the contact section //
 // app.get('/#contact', function(request, response){
 //   response.render('contact',{});
@@ -96,7 +90,7 @@ Destinations.find(function(error, destinations) {
 // If no file or endpoint found, send a 404 error as a response to the browser //
 app.use(function(req, res, next) {
   res.status(404);
-    res.send('404');
+    res.send('404: "These are not the droids you are looking for..." (File not Found) :)');
 });
 
 // Start up server //

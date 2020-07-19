@@ -14,5 +14,5 @@ const gallerySchema = new mongoose.Schema(
 
 // Compile and export this model using the above Schema //
 // Mongoose automatically looks for the plural, lower-cased version of the model name. //
-module.exports = mongoose.model('destination', gallerySchema);
+module.exports = mongoose.model('Destinations', gallerySchema);
 
