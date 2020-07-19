@@ -18,11 +18,11 @@
   text-align: center;
   max-width: 1000px;
   margin: auto;
-  padding: 2px;
+  padding: 1px;
 }
 
 .gallery img {
-  margin: 1.5em; 
+  margin: 1em; 
 }
 
 .gallery a {
@@ -60,5 +60,6 @@ figure p {
   flex-wrap: wrap;
   color: black;
   justify-content: left;
+  padding-left: 2px;
  
 }
