@@ -141,7 +141,8 @@ header p:hover {
   text-align: center;
   max-width: 1000px;
   margin: auto;
-  padding-bottom: 10px;
+  padding: 5px;
+
 }
 
 .gallery img {
@@ -158,24 +159,20 @@ figure {
   justify-content: center;
   text-align: center;
   border: 5px solid teal;
+  font-variant: small-caps;
+  font-family: 'Roboto', sans-serif;
 }
 
 figcaption {
- 
-  text-align: center;
-
   font-size: 20px;
   font-weight: bold;
-  font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
-
   color: teal;
 }
 
  figure p {
   font: 16px;
-  font-variant: small-caps;
-  font-family: 'Roboto', sans-serif;
+ 
   color: blue;
 
 }
