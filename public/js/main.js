@@ -1,5 +1,5 @@
-// Since the execution of this `app.js` script will be long finished by the time the following `fetch()` call returns data, 
-//we need to put our loop inside the second .then().  
+// Since the execution of this `app.js` script will be finished by the time the following `fetch()` call returns data, 
+//need to put the loop inside the second .then().  
 
 fetch('https://assignmentdh.herokuapp.com/api/destinations')
   .then(function(response){

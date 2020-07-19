@@ -69,7 +69,7 @@ app.get('/destinations:id', function(request, response){
 // model.find will always return an array, even if it only finds one //
 Destinations.findOne({'id': request.params.id}, function(error, destinations) {
   
-  // Check for IDs that are not in our list //
+  // Check for IDs that are not in the list //
   if (!destinations) {
     return response.send('Invalid ID.');
   }
@@ -78,8 +78,8 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
   });
 });
 
-// Create a JSON (no EJS here) that returns the entire destinations JSON //
-// This is the endpoint that the frontend gallery script calls (see: ./public/js/app.js). //
+// Create a JSON that returns the entire destinations //
+// This is the endpoint that the frontend gallery script calls //
 app.get('/api/destinations', function(request, response){
 
 Destinations.find(function(error, destinations) { 
@@ -87,13 +87,13 @@ Destinations.find(function(error, destinations) {
   });
 });
 
-// if no file or endpoint found, send a 404 error as a response to the browser //
+// If no file or endpoint found, send a 404 error as a response to the browser //
 app.use(function(req, res, next) {
   res.status(404);
-    res.send('404: These are not the droids you are looking for! (File not Found) :)');
+    res.send('404: "These are not the droids you are looking for..." (File not Found) :)');
 });
 
-// start up server //
+// Start up server //
 const PORT = process.env.PORT || 3000;
   app.listen(PORT, function(){
     console.log(`Listening on port ${PORT}`);
