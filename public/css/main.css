@@ -118,66 +118,6 @@ header p:hover {
   color: coral;
  }
 
-/*---------------------------*/
-/* ---- Gallery Section ---- */
-/*---------------------------*/
-
-#banner_1 {
-  padding: 25px 0px 25px 0px;
-  text-align: center;
-  
-  font-size: 35px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  
-  color: white;
-  background-color: coral;
-}
-
-/* Gallery linked to forEach loop in main.js file */
-
-.gallery {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  max-width: 1000px;
-  margin: auto;
-  padding: 5px;
-
-}
-
-.gallery img {
-  margin: 2em; 
-}
-
-.gallery a {
-  text-decoration: none;
-  font-size: 12px;
-}
-
-figure {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  border: 5px solid teal;
-  font-variant: small-caps;
-  font-family: 'Roboto', sans-serif;
-  margin-right: 5px;
-}
-
-figcaption {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  color: teal;
-}
-
- figure p {
-  color: black;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-
-}
 
 /*------------------------------------------*/
 /* ---- Contact US Information Section ---- */
