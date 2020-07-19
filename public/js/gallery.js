@@ -1,6 +1,5 @@
 // Since the execution of this `app.js` script will be finished by the time the following `fetch()` call returns data, 
 //need to put the loop inside the second .then().  
-
 fetch('https://assignmentdh.herokuapp.com/api/destinations')
   .then(function(response){
     return response.json();
@@ -21,7 +20,7 @@ fetch('https://assignmentdh.herokuapp.com/api/destinations')
       `<figure>
         <a href="${item.id}">
           <img src="https://picsum.photos/id/${item.id}/250" alt="${item.description}">
-          <figcaption>Click for tourism info about ${item.title}</figcaption>
+          <figcaption>Click for info about ${item.title}</figcaption>
         </a>
       </figure>`
   });

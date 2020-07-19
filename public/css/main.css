@@ -161,6 +161,7 @@ figure {
   border: 5px solid teal;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
+  margin-right: 5px;
 }
 
 figcaption {
@@ -172,9 +173,9 @@ figcaption {
 
  figure p {
   font: 16px;
- 
-  color: blue;
-
+  color: yellow;
+  font-size: 25px;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /*------------------------------------------*/
