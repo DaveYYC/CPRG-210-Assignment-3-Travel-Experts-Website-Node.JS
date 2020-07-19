@@ -156,6 +156,7 @@ header p:hover {
 
 figure {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   border: 5px solid teal;
@@ -172,10 +173,10 @@ figcaption {
 }
 
  figure p {
-  font: 16px;
-  color: yellow;
-  font-size: 25px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 /*------------------------------------------*/
