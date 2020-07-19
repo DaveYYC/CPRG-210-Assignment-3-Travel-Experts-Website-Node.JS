@@ -12,7 +12,6 @@
   background-color: coral;
 }
 
-
 .gallery {
   display: flex;
   justify-content: space-evenly;
@@ -21,7 +20,7 @@
   
   margin: auto;
   padding: 5px;
-  
+
 }
 
 .gallery img {
@@ -40,8 +39,7 @@
 /*----------------------------*/
 
 figcaption {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   background-color: teal;
@@ -58,6 +56,8 @@ figure {
 }
 
 figure p {
+  display: flex;
+  flex-wrap: wrap;
   color: black;
   justify-content: left;
   font-size: 16px;
