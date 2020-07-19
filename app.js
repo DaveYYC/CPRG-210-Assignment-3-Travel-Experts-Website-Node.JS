@@ -62,9 +62,8 @@ app.get('/register', function(request, response){
 // });
 
 // Define an endpoint handler for the individual destinations pages //
-app.get('/destinations/:id', function(request, response){
+app.get('/destination/:id', function(request, response){
   
-
 // model.findOne returns the first object it finds //
 // model.find will always return an array, even if it only finds one //
 Destinations.findOne({'id': request.params.id}, function(error, destinations) {
@@ -89,7 +88,7 @@ Destinations.find(function(error, destinations) {
 // If no file or endpoint found, send a 404 error as a response to the browser //
 app.use(function(req, res, next) {
   res.status(404);
-    res.send('404: "These are not the droids you are looking for..." (File not Found) :)');
+    res.send('404: "This is not the image you are looking for..." (File not Found) :)');
 });
 
 // Start up server //
