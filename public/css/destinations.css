@@ -40,7 +40,7 @@ figure {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* margin-right: 5px; */
+  
   border: 2px solid teal;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
@@ -48,10 +48,10 @@ figure {
 }
 
 figcaption {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  /* text-align: center; */
-  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  justify-content: center;
   color: teal;
 }
 
@@ -60,8 +60,5 @@ figure p {
   flex-wrap: wrap;
   color: black;
   justify-content: left;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  
-
+  font-size: 16px;
 }
