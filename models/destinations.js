@@ -11,7 +11,8 @@ const gallerySchema = new mongoose.Schema(
     intro:        String,
     fact1:        String,
     fact2:        String,
-    fact3:        String
+    fact3:        String,
+    fact4:        String
   }
 );
 
