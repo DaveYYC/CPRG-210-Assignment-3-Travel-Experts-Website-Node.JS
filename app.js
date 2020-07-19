@@ -62,7 +62,7 @@ app.get('/register', function(request, response){
 // });
 
 // Define an endpoint handler for the individual destinations pages //
-app.get('/:id', function(request, response){
+app.get('/destinations/:id', function(request, response){
   
 
 // model.findOne returns the first object it finds //
@@ -78,7 +78,6 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
   });
 });
 
-// Create a JSON that returns the entire destinations //
 // This is the endpoint that the frontend gallery script calls //
 app.get('/api/destinations', function(request, response){
 

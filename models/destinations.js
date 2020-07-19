@@ -1,5 +1,5 @@
 
-// Step 1: Defined Schema necessary for use with MongoDB //
+// Defined Schema necessary for use with MongoDB //
 const mongoose = require('mongoose');
 
 const gallerySchema = new mongoose.Schema(
