@@ -67,7 +67,7 @@ h4:hover {
   background-image: linear-gradient(teal, lightblue);
 } 
 
-.active>a {
+.current>a {
   background-image: linear-gradient(teal, lightblue);
 }
 
