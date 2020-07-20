@@ -50,7 +50,7 @@ figure {
   justify-content: left;
   padding: 5px;
   border: 2px solid teal;
-  font-variant: small-caps;
+ 
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
 }
@@ -61,5 +61,5 @@ figure p {
   color: black;
   justify-content: left;
   padding-left: 2px;
- 
+  font-variant: small-caps;
 }
