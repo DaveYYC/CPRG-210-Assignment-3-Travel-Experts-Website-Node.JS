@@ -82,7 +82,7 @@ Destinations.find(function(error, destinations) {
 // If no file or endpoint found, send a 404 error as a response to the browser //
 app.use(function(req, res, next) {
   res.status(404);
-    res.render('404');
+    res.render('404',{title:"404 page"});
 });
 
 // Start up server //
