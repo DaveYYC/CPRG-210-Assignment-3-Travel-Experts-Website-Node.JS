@@ -71,7 +71,11 @@ a:active {
   background-image: linear-gradient(teal, lightblue);
 }
 
-.current {
+.highlite {
+  background-color: teal
+}
+
+.highlite2 {
   background-color: teal
 }
 
