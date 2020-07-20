@@ -71,8 +71,8 @@ a:active {
   background-image: linear-gradient(teal, lightblue);
 }
 
-.login {
- background-color: teal;
+a.current {
+  background-image: teal;
 }
 
 
