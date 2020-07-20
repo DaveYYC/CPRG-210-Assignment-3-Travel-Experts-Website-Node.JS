@@ -49,7 +49,7 @@ figure {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  
+  font-variant: small-caps;
   padding: 5px;
   border: 2px solid teal;
 }
@@ -58,7 +58,7 @@ figure p {
   align-items: center;
   padding-left: 10px;
   font-size: 16px;
-  font-variant: small-caps;
+  
   font-family: 'Roboto', sans-serif;
   line-height: 3;
   color: black;

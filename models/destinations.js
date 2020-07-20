@@ -12,7 +12,9 @@ const gallerySchema = new mongoose.Schema(
     fact1:        String,
     fact2:        String,
     fact3:        String,
-    fact4:        String
+    fact4:        String,
+    fact5:        String,
+    fact6:        String
   }
 );
 
