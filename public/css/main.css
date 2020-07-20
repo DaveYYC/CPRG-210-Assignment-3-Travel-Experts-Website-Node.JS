@@ -158,7 +158,7 @@ header p:hover {
   background: coral;
 }
 
-.error {
+.error p {
   color:red;
   text-align: center;
   align-items: center;
