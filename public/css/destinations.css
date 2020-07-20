@@ -51,19 +51,16 @@ figure {
   justify-content: left;
   padding: 5px;
   border: 2px solid teal;
+  
+  padding-left: 2px;
+  
+  font-size: 16px;
 }
 
 figure p {
-  display: flex;
-  flex-wrap: wrap;
   color: black;
   justify-content: left;
- 
-}
-
-#text {
-  font-variant: small-caps;
-  padding-left: 2px;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  padding-left: 5px;
+  font-variant: small-caps;
 }
