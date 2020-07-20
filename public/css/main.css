@@ -158,6 +158,13 @@ header p:hover {
   background: coral;
 }
 
+h2 {
+  color:red;
+  text-align: center;
+  font-size: 30px;
+  height: 65vh;
+}
+
 /*--------------------------*/
 /* ---- Footer Section ---- */
 /*--------------------------*/
