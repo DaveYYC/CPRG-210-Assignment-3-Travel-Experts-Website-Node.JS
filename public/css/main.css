@@ -71,6 +71,10 @@ a:active {
   background-image: linear-gradient(teal, lightblue);
 }
 
+.login {
+ background-color: teal;
+}
+
 
 /*------------------------*/
 /* ---- Hero Section ---- */
