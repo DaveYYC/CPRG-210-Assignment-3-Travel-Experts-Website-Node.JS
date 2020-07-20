@@ -19,7 +19,7 @@
   max-width: 1000px;
   margin: auto;
   padding: 1px;
-  font-variant: small-caps;
+  
 }
 
 .gallery img {
@@ -51,9 +51,6 @@ figure {
   justify-content: left;
   padding: 5px;
   border: 2px solid teal;
- 
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
 }
 
 figure p {
@@ -61,6 +58,12 @@ figure p {
   flex-wrap: wrap;
   color: black;
   justify-content: left;
+ 
+}
+
+#text {
+  font-variant: small-caps;
   padding-left: 2px;
-  
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
