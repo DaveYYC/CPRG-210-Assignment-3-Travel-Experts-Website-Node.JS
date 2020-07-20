@@ -57,11 +57,11 @@ figure {
 }
 
 figure p {
-  padding-left: 5px;
+  text-align: center;
+  padding-left: 10px;
   font-size: 16px;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
   line-height: 2.5;
   color: black;
-  align-content: center;
 }
