@@ -71,9 +71,9 @@ a:active {
   background-image: linear-gradient(teal, lightblue);
 }
 
-/* .current {
+.current {
   background-color: teal
-} */
+}
 
 /*------------------------*/
 /* ---- Hero Section ---- */
