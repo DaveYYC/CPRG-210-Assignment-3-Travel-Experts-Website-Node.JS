@@ -20,7 +20,7 @@ fetch('https://assignmentdh.herokuapp.com/api/destinations')
       `<figure>
         <a href="${item.id}">
           <img src="https://picsum.photos/id/${item.id}/250" alt="${item.description}">
-          Click for info about ${item.title}
+            ${item.title}
         </a>
       </figure>`
   });

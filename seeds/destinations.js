@@ -6,7 +6,8 @@ const destinations = [
     heading: '',
     fact1: '',
     fact2: '',
-    fact3: ''
+    fact3: '',
+    fact4: '',
   },
   {
     id: 1029, 
@@ -15,7 +16,8 @@ const destinations = [
     heading: '',
     fact1: '',
     fact2: '',
-    fact3: ''
+    fact3: '',
+    fact4: '',
   },
   {
     id: 1040, 
@@ -24,7 +26,8 @@ const destinations = [
     heading: '',
     fact1: '',
     fact2: '',
-    fact3: ''
+    fact3: '',
+    fact4: '',
   },
   {
     id: 164, 
@@ -33,7 +36,8 @@ const destinations = [
     heading: '',
     fact1: '',
     fact2: '',
-    fact3: ''
+    fact3: '',
+    fact4: '',
   },
   {
     id: 234, 
@@ -42,7 +46,8 @@ const destinations = [
     heading: '',
     fact1: '',
     fact2: '',
-    fact3: ''
+    fact3: '',
+    fact4: '',
   },
 ];
 

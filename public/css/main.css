@@ -168,12 +168,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   padding-top: 10px;
   padding-bottom: 10px;
   overflow: hidden;
 
+  font-size: 24px;
   text-align: center;
-  font-size: 20px;
   font-family: 'Montserrat Alternates', sans-serif;
 
   color:white;
