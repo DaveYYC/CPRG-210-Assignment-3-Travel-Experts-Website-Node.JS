@@ -19,6 +19,7 @@
   max-width: 1000px;
   margin: auto;
   padding: 1px;
+  font-variant: small-caps;
 }
 
 .gallery img {
@@ -61,5 +62,5 @@ figure p {
   color: black;
   justify-content: left;
   padding-left: 2px;
-  font-variant: small-caps;
+  
 }
