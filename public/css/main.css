@@ -163,7 +163,13 @@ h2 {
   text-align: center;
   margin-top: 100px;
   font-size: 40px;
-  height: 60vh;
+  height: 55vh;
+  background-image: url(https://picsum.photos/id/16/1000/1250);
+  background-position: bottom;
+  background-size: cover;
+
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
 /*--------------------------*/

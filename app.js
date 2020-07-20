@@ -79,7 +79,7 @@ Destinations.find(function(error, destinations) {
   });
 });
 
-// If no file or endpoint found, send a 404 error as a response to the browser //
+// If no file or endpoint found, send a 404 error as a response to the 404 page //
 app.use(function(req, res, next) {
   res.status(404);
     res.render('404',{title:"404"});
