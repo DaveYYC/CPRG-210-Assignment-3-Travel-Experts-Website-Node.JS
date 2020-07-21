@@ -53,7 +53,7 @@ app.get('/login', function(request, response){
 
 // Endpoint handler for the register page //
 app.get('/register', function(request, response){
-  response.render('register',{});
+  response.render('register',{page_name:'register'});
 });
 
 // Endpoint handler for the individual destinations pages //
