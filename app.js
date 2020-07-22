@@ -48,7 +48,7 @@ app.get('/', function(request, response){
 
 // Endpoint handler for the login page //
 app.get('/login', function(request, response){
-  response.render('login',{});
+  response.render('login',{title:'login'});
 });
 
 // Endpoint handler for the register page //
