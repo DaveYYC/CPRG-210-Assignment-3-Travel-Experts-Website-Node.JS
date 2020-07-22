@@ -57,14 +57,14 @@ app.get('/register', function(request, response){
 });
 
 // Endpoint handler for the individual destinations pages //
-app.get('/destinations/:id', function(request, response){
+app.get('/:id', function(request, response){
 
 // .findOne returns the first object it finds //
 Destinations.findOne({'id': request.params.id}, function(error, destinations) {
   
   // Check for IDs that are not in the list //
   if (!destinations) {
-    return response.send('Invalid ID.');
+    return response.send('Sorry Invalid ID.');
   }
   // Compile view and respond //
   response.render('destinations',destinations);
