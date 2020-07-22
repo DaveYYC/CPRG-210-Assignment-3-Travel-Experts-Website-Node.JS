@@ -48,12 +48,12 @@ app.get('/', function(request, response){
 
 // Endpoint handler for the login page //
 app.get('/login', function(request, response){
-  response.render('login',{page_name:'login'});
+  response.render('login',{});
 });
 
 // Endpoint handler for the register page //
 app.get('/register', function(request, response){
-  response.render('register',{page_name:'register'});
+  response.render('register',{});
 });
 
 // Endpoint handler for the individual destinations pages //
