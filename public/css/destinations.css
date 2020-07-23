@@ -15,10 +15,12 @@
 .gallery {
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
+ 
   max-width: 1000px;
   margin: auto;
   padding: 1px;
+  
+  text-align: center;
   font-variant: small-caps;
 }
 
@@ -27,10 +29,11 @@
 }
 
 .gallery a {
-  text-decoration: none;
   font-size: 18px;
-  color: teal;
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
+
+  color: teal;
 }
 
 /*----------------------------*/
@@ -41,25 +44,26 @@ figcaption {
   font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+
+  color: white;
   background-color: teal;
-  color: white
 }
 
 figure {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  
+
   padding: 5px;
   border: 2px solid teal;
+  text-decoration: none;
 }
 
-figure ul li {
+figure li {
   padding-left: 10px;
   margin-top: 10px;
-  text-decoration: none;
+  line-height: 2;
 
-  line-height: 3;
   font-size: 16px;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
