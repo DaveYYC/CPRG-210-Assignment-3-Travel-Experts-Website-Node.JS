@@ -30,7 +30,7 @@
 
 .gallery a {
   font-size: 18px;
-  text-decoration: none;
+  
   font-family: 'Roboto', sans-serif;
 
   color: teal;
@@ -56,7 +56,7 @@ figure {
 
   padding: 5px;
   border: 2px solid teal;
-  text-decoration: none;
+  list-style: none;
 }
 
 figure li {
