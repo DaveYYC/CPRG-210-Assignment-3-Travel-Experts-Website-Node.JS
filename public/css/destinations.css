@@ -55,11 +55,14 @@ figure {
 }
 
 figure ul li {
-  align-items: center;
   padding-left: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+
+  line-height: 3;
   font-size: 16px;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
-  line-height: 3;
+  
   color: black;
 }
