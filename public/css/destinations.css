@@ -61,12 +61,18 @@ figure {
 
 figure li {
   padding-left: 10px;
-  margin-top: 10px;
+  list-style: none;
   line-height: 2;
 
   font-size: 16px;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
-  list-style: none;
+  
   color: black;
+}
+
+.intro {
+  padding-left: 10px;
+  margin-top: 10px;
+  font: 18px;
 }
