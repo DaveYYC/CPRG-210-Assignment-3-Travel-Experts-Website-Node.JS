@@ -62,9 +62,9 @@ figure {
 figure li {
   padding-left: 10px;
   list-style: none;
-  line-height: 2;
+  line-height: 2.5;
 
-  font-size: 16px;
+  font-size: 18px;
   font-variant: small-caps;
   font-family: 'Roboto', sans-serif;
   
@@ -74,5 +74,5 @@ figure li {
 .intro {
   padding-left: 10px;
   margin-top: 10px;
-  font: 18px;
+  font-size: 20px;
 }
