@@ -1,7 +1,7 @@
 {
   "name": "assignment_mdb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demonstration website for Travel Experts. Tech Careers/SAIT CPRG 210 Assignment Final",
   "main": "app.js",
   "engines": {
     "node": "14.5.0"
@@ -10,7 +10,7 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "David Hahner",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
