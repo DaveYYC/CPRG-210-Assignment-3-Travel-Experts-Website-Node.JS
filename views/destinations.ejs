@@ -16,13 +16,15 @@
 
   <figure>
     <img src="http://picsum.photos/id/<%= id %>/325" alt="<%= title %>">
-    <p><%= intro %><br>
-    -- <%= fact1 %><br>
-    -- <%= fact2 %><br>
-    -- <%= fact3 %><br>
-    -- <%= fact4 %></p>
-    -- <%= fact5 %></p>
-    -- <%= fact6 %></p>
+    <p><%= intro %></p>
+      <ul>
+        <li><%= fact1 %></li>
+        <li><%= fact2 %></li>
+        <li><%= fact3 %></li>
+        <li><%= fact4 %></li>
+        <li><%= fact5 %></li>
+        <li><%= fact6 %></li>
+      </ul>
   </figure>
 
   <%- include('./partials/footer'); %>

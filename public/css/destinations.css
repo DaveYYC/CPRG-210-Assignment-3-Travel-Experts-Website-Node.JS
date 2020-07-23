@@ -54,7 +54,7 @@ figure {
   border: 2px solid teal;
 }
 
-figure p {
+figure ul li {
   align-items: center;
   padding-left: 10px;
   font-size: 16px;
