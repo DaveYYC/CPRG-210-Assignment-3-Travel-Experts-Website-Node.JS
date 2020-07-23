@@ -48,7 +48,7 @@ app.get('/', function(request, response){
 
 // Endpoint handler for the login page //
 app.get('/login', function(request, response){
-  response.render('login',{title:'login'});
+  response.render('login',{});
 });
 
 // Endpoint handler for the register page //
@@ -76,6 +76,7 @@ app.get('/api/destinations', function(request, response){
 
 Destinations.find(function(error, destinations) { 
   response.json(destinations);
+  // console.log(destinations);
   });
 });
 
