@@ -54,7 +54,7 @@ figure {
   flex-wrap: wrap;
   justify-content: left;
 
-  list-style: none;
+ 
   padding: 5px;
   border: 3px solid teal;
 }
@@ -62,16 +62,18 @@ figure {
 figure li {
   padding-left: 20px;
   line-height: 2.5;
+  list-style: none;
 
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  
+
   color: black;
 }
 
 figure p {
   padding-left: 10px;
   margin-top: 10px;
+  
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
 }
