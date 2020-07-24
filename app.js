@@ -43,7 +43,7 @@ corsOptions = {
 
 // Endpoint handler for the home page //
 app.get('/', function(request, response){
-  response.render('index',{});
+  response.render('index',{currentPage: 'index'});
 });
 
 // Endpoint handler for the login page //
