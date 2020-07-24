@@ -19,8 +19,9 @@ fetch('https://assignmentdh.herokuapp.com/api/destinations')
   imgList.forEach(function(item){
     imgTemplate += 
       `<figure>
+      ${item.title} 
         <a href="${item.id}">
-          <img src="https://picsum.photos/id/${item.id}/250" alt="${item.description}"> ${item.title}  
+          <img src="https://picsum.photos/id/${item.id}/250" alt="${item.description}">  
         </a>
       </figure>`
   });

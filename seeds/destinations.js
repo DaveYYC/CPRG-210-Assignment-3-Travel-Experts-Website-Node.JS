@@ -1,7 +1,7 @@
 const destinations = [
   {
     id: 1022,
-    title: 'Alaska',
+    title: 'Exoplore Alaska',
     description: 'picture of the northern lights',
     intro: 'Some Facts About Alaska:',
     fact1: 'State Nick Name: "The Last Frontier".',
@@ -13,7 +13,7 @@ const destinations = [
   },
   {
     id: 1029, 
-    title: 'New York',
+    title: 'Visit New York City',
     description: 'picture of central park',
     intro: 'Some facts about New York City:',
     fact1: 'Over 8 million people live in New York City.',
@@ -25,7 +25,7 @@ const destinations = [
   },
   {
     id: 1040, 
-    title: 'Germany',
+    title: 'Explore Germany',
     description: 'picture of german castle',
     intro: 'Some facts about Germany:',
     fact1: 'Germany is referred to as the land of poets and thinkers or ‘Land der dichter und denker’.',
@@ -37,7 +37,7 @@ const destinations = [
   },
   {
     id: 164, 
-    title: 'Italy',
+    title: 'Plan a Trip to Italy',
     description: 'landscape of italy with the tower of pisa',
     intro: 'Some facts about Italy:',
     fact1: 'The official name of Italy is Italy is the Italian Republic.',
@@ -49,7 +49,7 @@ const destinations = [
   },
   {
     id: 234, 
-    title: 'Paris',
+    title: 'Visit Paris',
     description: 'landscape of paris with the eiffel tower',
     intro: 'Some facts about Paris:',
     fact1: 'The Eiffel Tower was the world tallest building until 1930.',
