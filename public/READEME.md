@@ -1,7 +1,7 @@
 
 SAIT/Manpower TechCareers Cohort#4 
 
-CPRG 210 Assignment 1: 
+CPRG 210 Assignment Node: 
 
     Demonstration Website for 'Travel Experts' Travel Agency
       -Utilizing Express, EJS, MongoDB, and Heroku
