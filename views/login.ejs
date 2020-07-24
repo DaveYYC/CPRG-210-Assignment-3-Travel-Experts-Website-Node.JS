@@ -10,19 +10,22 @@
   <%- include('./partials/nav'); %>
   <div class="login">
     <form id="login"  action="https://formspree.io/meqrpezq" method="post">
-      <label>LOGIN</label>
+      <legend>LOGIN</legend>
         <p>Mandatory fields marked with *</p>
       <label for="mail">E-mail:</label> 
         <input type="email" id="mail" name="user_email">
           <span class="required"> * </span>     
       <label for="pwd">Password:</label> 
-        <input type="password" min-length="8" id="pwd" name="pwd" required title="8 characters minimum">
+        <input type="password" pattern=".{8,}" id="pwd" name="pwd" required title="8 characters minimum">
+         <!-- note: minlength is unknown and not available with input type-password -->
           <span class="required"> * </span>
-            <p>Password minimum 8 characters</p>
+        <p>Password minimum 8 characters</p>
       <div class="button"><button type="submit">SUBMIT</button></div>
     </form>
   </div>
+
   <script src="js/toggle.js"></script> 
+  
   <%- include('./partials/footer'); %>
 </body> 
 </html>

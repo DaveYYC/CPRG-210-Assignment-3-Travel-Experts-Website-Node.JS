@@ -6,7 +6,7 @@ const dotenv = require('dotenv').config();
 const cors = require('cors');
 const moment = require('moment'); 
 
-// Models //
+// Model //
 const Destinations = require('./models/destinations.js');
 
 // Creates the express app and show use of 'ejs' or 'pug' //

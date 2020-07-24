@@ -1,5 +1,5 @@
 
-// Script to enable the toggle menu //
+// Script for the toggle menu //
 
 const button = document.querySelector('.btn');
 const menu = document.querySelector('nav ul');

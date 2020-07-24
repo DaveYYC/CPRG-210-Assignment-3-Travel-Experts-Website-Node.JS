@@ -3,42 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <%- include('./partials/css'); %>
-
   <title>Travel Experts - Register</title>
-
+  <%- include('./partials/css'); %>
 </head>
 <body> 
-  
   <%- include('./partials/nav'); %>
 
   <div class="register">
     <form id = "register" action="https://formspree.io/meqrpezq" method="post">
       <legend>Registration</legend>
-        <p>Mandatory fields marked with *</p>
-          <label for="f_name">First Name:</label>
-            <input type="text" id="f_name" name="user_f_name" required><span class="required"> * </span>   
-          <label for="l_name">Last Name:</label>
-            <input type="text" id="l_name" name="user_l_name" required><span class="required"> * </span>
-          <label for="mail">E-mail:  </label>
-            <input type="email" id="mail" name="user_email" required><span class="required"> * </span>
-          <label for="password">Create<br> Password:</label>
-            <input type="password" pattern=".{8,}" id="pwd" name="pwd" required title="8 characters minimum"><span class="required"> * </span>
-            <!-- note: minlength is unknown and not available -->
-          <label for="conf_pwd">Confirm<br> Password:</label>
-            <input type="password" pattern=".{8,}" id="conf_pwd" name="conf_pwd" required title="8 characters minimum"><span class="required"> * </span>
-        <p>Password minimum 8 characters</p>
+      <p>Mandatory fields marked with *</p>
+        <label for="f_name">First Name:</label>
+          <input type="text" id="f_name" name="user_f_name" required>
+            <span class="required"> * </span>   
+        <label for="l_name">Last Name:</label>
+          <input type="text" id="l_name" name="user_l_name" required>
+            <span class="required"> * </span>
+        <label for="mail">E-mail:  </label>
+          <input type="email" id="mail" name="user_email" required>
+            <span class="required"> * </span>
+        <label for="password">Create<br> Password:</label>
+          <input type="password" pattern=".{8,}" id="pwd" name="pwd" required title="8 characters minimum">
+            <span class="required"> * </span>
+          <!-- note: minlength is unknown and not available with input type-password -->
+        <label for="conf_pwd">Confirm<br> Password:</label>
+          <input type="password" pattern=".{8,}" id="conf_pwd" name="conf_pwd" required title="8 characters minimum">
+            <span class="required"> * </span>
+      <p>Password minimum 8 characters</p>
       <legend>Select to subscribe to our newsletter:</legend>
-        <input type="checkbox" id="sub_yes" name="sub_yes" value="sub_yes">
-          <button type="submit">SUBMIT</button>
+      <input type="checkbox" id="sub_yes" name="sub_yes" value="sub_yes">
+      <button type="submit">SUBMIT</button>
     </form>
   </div>
 
   <script src="js/toggle.js"></script> 
-  
+
   <%- include('./partials/footer'); %>
-  
 </body> 
 </html>
 
