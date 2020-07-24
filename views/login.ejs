@@ -6,10 +6,8 @@
   <title>Travel Experts - Login</title>
   <%- include('./partials/css'); %>
 </head>
-
 <body>
   <%- include('./partials/nav'); %>
-
   <div class="login">
     <form id="login"  action="https://formspree.io/meqrpezq" method="post">
       <legend>LOGIN</legend>
@@ -19,15 +17,14 @@
           <span class="required"> * </span>     
       <label for="pwd">Password:</label> 
         <input type="password" pattern=".{8,}" id="pwd" name="pwd" required title="8 characters minimum">
-         <!-- note: minlength is unknown and not available with input type-password -->
+        <!-- note: minlength is unknown and not available with input type-password -->
           <span class="required"> * </span>
       <p>Password minimum 8 characters</p>
       <div class="button"><button type="submit">SUBMIT</button></div>
     </form>
   </div>
-
-  <script src="js/toggle.js"></script> 
   <%- include('./partials/footer'); %>
+  <script src="js/toggle.js"></script> 
 </body> 
 </html>
 

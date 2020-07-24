@@ -57,7 +57,7 @@ app.get('/register', function(request, response){
 });
 
 // Endpoint handler for the individual destinations pages //
-app.get('/:id', function(request, response){
+app.get('/:id', function(request, response,){
 
 // .findOne returns the first object it finds //
 Destinations.findOne({'id': request.params.id}, function(error, destinations) {
@@ -68,15 +68,15 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
   // Compile view and respond //
   response.render('destinations',destinations);
   });
-});
+})
 
 // This is the endpoint that the frontend gallery script calls //
-app.get('/api/destinations', function(request, response){
+app.get('/api/destinations', function(request, response,){
 
 Destinations.find(function(error, destinations) { 
   response.json(destinations);
   });
-});
+})
 
 // If no file or endpoint found, send a response to the 404 page //
 app.use(function(req, res, next) {
