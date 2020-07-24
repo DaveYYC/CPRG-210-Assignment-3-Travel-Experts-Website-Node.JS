@@ -5,10 +5,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-/* background for the pages */
-body {
-  /* background-color: rgba(122, 109, 105, 0.322);  */
-}
 
 /*----------------------------------*/
 /* ---- Navigation Bar Section ---- */
@@ -80,8 +76,6 @@ header p:hover {
 
   align-items: center;
   overflow: hidden;
-
-  background-color: rgba(122, 109, 105, 0.322); 
 } 
 
 .container ul {
