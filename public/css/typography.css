@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+/* Layout for the page */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+}
+
+body {
+  line-height: 1.2;
+  letter-spacing: 5px;
+  font-variant: small-caps;
+}
+
+/*--------------------------------------*/
+/* ------ Navigation Bar Section ------ */
+/*--------------------------------------*/
+nav {
+  text-align: center;
+  text-decoration: none;
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav ul li {
+  font-size: 16px;
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav h1 {
+  font-size: 45px;
+}
+
+/*----------------------------*/
+/* ------ Hero Section ------ */
+/*----------------------------*/
+header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  color: white;
+}
+
+/* Announcement text and sign up link */
+header h1  {
+  font-size: 55px;
+}
+
+header p {
+  font-size: 60px;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+/*----------------------------------------------*/
+/* ------ Contact US Information Section ------ */
+/*----------------------------------------------*/
+.container {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container ul {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+#contact {
+  font-size: 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  color:white;
+}
+
+/*-------------------------------*/
+/* ------ Gallery Section ------ */
+/*-------------------------------*/
+#banner_1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  
+  color: white;
+}
+
+.gallery {
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.gallery a {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+
+  color: teal;
+}
+
+/*--------------------------------*/
+/*------ Destinations Page ------ */
+/*--------------------------------*/
+
+figcaption {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  color: white;
+}
+
+figure li {
+  line-height: 2.5;
+  list-style: none;
+
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+
+  color: black;
+}
+
+figure p {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container form {
+  text-align: center;
+}
+
+.container legend {
+  font-size: 25px;
+  text-align: center;
+}
+
+.container label {
+  text-align: right;
+  font-size: 18px;
+}
+
+button {
+  color:white;
+}
+/* -------------------------------- */
+/* ------ login form section ------ */
+/* -------------------------------- */
+.login form {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+
+  color: black;
+}
+
+.login legend {
+  font-size: 25px;
+  text-align: center;
+}
+
+.login label {
+  font-size: 18px;
+  text-align: right;
+  
+}
+
+.login p {
+  text-align: center;
+  font-size: 12px;
+}
+/* ------------------------------- */
+/* ------ Registration Form ------ */
+/* ------------------------------- */
+.register {
+  text-align: left;
+}
+
+.register form {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.register legend {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.register label {
+  font-size: 18px;
+  text-align: left;
+}
+
+.register p {
+  font-size: 12px;
+  text-align: center;
+}
+/* ----------------------------- */
+/* Styling for the 404 page text */
+/* ----------------------------- */
+h2 {
+  font-size: 40px;
+  text-align: center;
+  
+  color:red;
+}
+
+/* ---------------------------- */
+/* ------ Footer Section ------ */
+/* ---------------------------- */
+footer {
+  font-size: 24px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  color:white;
+} 
+
+#footerYear {
+  font-size: 22px;
+}

@@ -3,12 +3,6 @@
 /*---------------------------*/
 #banner_1 {
   padding: 25px 0px 25px 0px;
-  text-align: center;
-  
-  font-size: 35px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  
-  color: white;
   background-color: coral;
 }
 
@@ -19,33 +13,16 @@
   max-width: 1000px;
   margin: auto;
   padding: 1px;
-  
-  text-align: center;
-  font-variant: small-caps;
 }
 
 .gallery img {
   margin: 1em; 
 }
 
-.gallery a {
-  font-size: 18px;
-  
-  font-family: 'Roboto', sans-serif;
-
-  color: teal;
-}
-
 /*----------------------------*/
 /*---- Destinations Page ---- */
 /*----------------------------*/
-
 figcaption {
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-
-  color: white;
   background-color: teal;
 }
 
@@ -54,26 +31,15 @@ figure {
   flex-wrap: wrap;
   justify-content: left;
 
- 
   padding: 5px;
   border: 3px solid teal;
 }
 
 figure li {
   padding-left: 20px;
-  line-height: 2.5;
-  list-style: none;
-
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-
-  color: black;
 }
 
 figure p {
   padding-left: 10px;
   margin-top: 10px;
-  
-  font-size: 22px;
-  font-family: 'Roboto', sans-serif;
 }

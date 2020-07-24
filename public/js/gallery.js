@@ -10,7 +10,7 @@ fetch('http://localhost:3000/api/destinations')
 
   const imgList = destinations;
 
-  // Variable where we will store our img tags //
+  // Variable where img tags are stored //
   let imgTemplate = ''; 
 
   // Flex container for images //
@@ -21,8 +21,7 @@ fetch('http://localhost:3000/api/destinations')
     imgTemplate += 
       `<figure>
         <a href="${item.id}">
-          <img src="https://picsum.photos/id/${item.id}/250" alt="${item.description}">
-            ${item.title}
+          <img src="https://picsum.photos/id/${item.id}/250" alt="${item.description}"> ${item.title}  
         </a>
       </figure>`
   });

@@ -4,7 +4,7 @@ SAIT/Manpower TechCareers Cohort#4
 CPRG 210 Assignment 1: 
 
     Demonstration Website for 'Travel Experts' Travel Agency
-      -Utilizing Express, EJS, and MongoDB
+      -Utilizing Express, EJS, MongoDB, and Heroku
 
 Author: David Hahner
 
