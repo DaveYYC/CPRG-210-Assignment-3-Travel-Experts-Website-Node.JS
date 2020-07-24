@@ -100,7 +100,7 @@ header a {
 .gallery a {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-
+  text-decoration: none;
   color: teal;
 }
 

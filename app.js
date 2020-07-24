@@ -56,6 +56,11 @@ app.get('/register', function(request, response){
   response.render('register',{currentPage:'register'});
 });
 
+// Endpoint handler for the register page //
+app.get('/destinations', function(request, response){
+  response.render('register',{currentPage:'destinations'});
+});
+
 // Endpoint handler for the individual destinations pages //
 app.get('/:id', function(request, response,){
 
