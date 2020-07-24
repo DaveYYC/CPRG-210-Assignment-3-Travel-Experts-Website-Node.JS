@@ -66,7 +66,7 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
     return response.send('Sorry Invalid ID.');
   }
   // Compile view and respond //
-  response.render('destinations',destinations);
+  response.render('destinations',{currentPage:'destinations'});
   });
 });
 
