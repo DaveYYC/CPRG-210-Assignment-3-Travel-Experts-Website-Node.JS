@@ -8,9 +8,9 @@
 </head>
 <body>
   <%- include('./partials/nav'); %>
-  <figcaption id="destinations"><%=title %></figcaption>
+  <figcaption><%=title %></figcaption>
   <figure >
-    <img src="http://picsum.photos/id/<%= id %>/350" alt="<%= title %>">
+    <img src="http://picsum.photos/id/<%=id %>/350" alt="<%=title %>">
       <ul>
         <p><%=intro %></p><br>
         <li>-<%= fact1 %></li>
@@ -21,7 +21,8 @@
         <li>-<%= fact6 %></li>
       </ul>
   </figure>
+  <script src="js/toggle.js"></script>
+  <script src="js/gallery.js"></script> 
   <%- include('./partials/footer'); %>
-  <script src="js/toggle.js"></script> 
 </body>
 </html>
