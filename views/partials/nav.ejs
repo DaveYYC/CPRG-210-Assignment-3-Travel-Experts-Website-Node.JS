@@ -6,7 +6,11 @@
   <button class="btn">Menu Toggle</button>
 
   <ul>
-    <li><a href="/login">LOGIN</a></li>
+    <li 
+    <% if (page == 'login') { %>
+      class="current"
+    <% } %>
+    ><a href="/login">LOGIN</a></li>
     <li><a href="/register">SIGN UP</a></li>
     <li><a href="/#banner_1">Gallery</a></li>
     <li><a href="/#contact">Contact Us</a></li>
