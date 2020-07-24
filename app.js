@@ -43,22 +43,17 @@ corsOptions = {
 
 // Endpoint handler for the home page //
 app.get('/', function(request, response){
-  response.render('index',{currentPage: 'index'});
+  response.render('index',{});
 });
 
 // Endpoint handler for the login page //
 app.get('/login', function(request, response){
-  response.render('login',{currentPage:'login'});
+  response.render('login',{});
 });
 
 // Endpoint handler for the register page //
 app.get('/register', function(request, response){
-  response.render('register',{currentPage:'register'});
-});
-
-// Endpoint handler for the register page //
-app.get('/destinations', function(request, response){
-  response.render('destinations',{currentPage:'destinations'});
+  response.render('register',{});
 });
 
 // Endpoint handler for the individual destinations pages //
@@ -71,9 +66,9 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
     return response.send('Sorry Invalid ID.');
   }
   // Compile view and respond //
-  response.render('destinations');
+  response.render('destinations',destinations);
   });
-})
+});
 
 // This is the endpoint that the frontend gallery script calls //
 app.get('/api/destinations', function(request, response,){
@@ -81,12 +76,12 @@ app.get('/api/destinations', function(request, response,){
 Destinations.find(function(error, destinations) { 
   response.json(destinations);
   });
-})
+});
 
 // If no file or endpoint found, send a response to the 404 page //
 app.use(function(req, res, next) {
   res.status(404);
-    res.render('404',{title:"404"});
+    res.render('404', {title:"404"});
 });
 
 // Start up server //

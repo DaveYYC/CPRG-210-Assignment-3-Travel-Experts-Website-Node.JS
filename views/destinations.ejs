@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Experts - Destinations</title>
-  <%- include('./partials/css'); %>
+  <%- include('./partials/css'); %> 
 </head>
 <body>
-  <figcaption><%=title %></figcaption>
+  <%- include('./partials/nav'); %>
+  <figcaption><%= title %></figcaption>
   <figure >
-    <img src="http://picsum.photos/id/<%=id %>/350" alt="<%=title %>">
+    <img src="http://picsum.photos/id/<%= id %>/350" alt="<%= title %>">
       <ul>
         <p><%=intro %></p><br>
         <li>-<%= fact1 %></li>
