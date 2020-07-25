@@ -24,10 +24,9 @@ Acknowledgements:
 
 Additional reference: Mozilla Developer Network (https://developer.mozilla.org/en-US/docs/Learn)
 
-GitHub link:
-https://daveyyc.github.io/assignment_mdb
+GitHub link:[https://daveyyc.github.io/assignment_mdb]
 
-This site can be accessed at [Heroku link here]. 
+This site can be accessed at [https://assignmentdh.herokuapp.com/]. 
 
 
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
