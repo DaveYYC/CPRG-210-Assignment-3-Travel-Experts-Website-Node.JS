@@ -13,12 +13,12 @@
       <legend>LOGIN</legend>
       <p>Mandatory fields marked with *</p>
       <label for="mail">E-mail:</label> 
-        <input type="email" id="mail" name="user_email">
-          <span class="required"> * </span>     
+        <span class="required"> * </span>
+          <input type="email" id="mail" name="user_email">       
       <label for="pwd">Password:</label> 
-        <input type="password" pattern=".{8,}" id="pwd" name="pwd" required title="8 characters minimum">
-        <!-- note: minlength is unknown/not available with input type-password -->
-          <span class="required"> * </span>
+        <span class="required"> * </span>
+          <input type="password" pattern=".{8,}" id="pwd" name="pwd" required title="8 characters minimum">
+          <!-- note: minlength is unknown/not available with input type-password -->
       <p>Password minimum 8 characters</p>
       <div class="button"><button type="submit">SUBMIT</button></div>
     </form>
