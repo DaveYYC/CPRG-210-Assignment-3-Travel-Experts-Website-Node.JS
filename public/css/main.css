@@ -161,7 +161,7 @@ nav ul {
   }
 }
 
-.login {
-
-
+div:target {
+  border: 2px solid #D4D4D4;
+  background-color: red
 }
