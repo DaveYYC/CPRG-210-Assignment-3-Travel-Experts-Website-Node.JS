@@ -24,7 +24,7 @@ nav a {
   margin: auto;
   padding: 5px;
 }
-nav a.current {
+nav a.login {
   background:darkblue;
   color:white;
 }
