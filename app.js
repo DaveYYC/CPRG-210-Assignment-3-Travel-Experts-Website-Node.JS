@@ -74,7 +74,7 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
 app.get('/api/destinations', function(request, response,){
 
 Destinations.find(function(error, destinations) { 
-  response.json(destinations, {curretnPage: 'destinations'});
+  response.json(destinations, {currentPage: 'destinations'});
   });
 });
 
