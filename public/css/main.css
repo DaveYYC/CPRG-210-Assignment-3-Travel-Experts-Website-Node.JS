@@ -1,5 +1,6 @@
-
+/*---------*/
 /* Resets */
+/*--------*/
 * {
   margin: 0; 
   padding: 0px;
@@ -24,17 +25,13 @@ nav a {
   margin: auto;
   padding: 5px;
 }
-nav a.login {
-  background:darkblue;
-  color:white;
-}
 
 a:hover {
   background-image: linear-gradient(teal, lightblue);
 } 
 
 a.current {
-  background-image: linear-gradient(teal, lightblue);
+  color: teal;
 } 
 
 /*----------------------------*/
@@ -48,8 +45,9 @@ header {
   background-position: bottom;
   background-size: cover;
 }
-
+/*------------------------------------*/
 /* Announcement text and sign up link */
+/*------------------------------------*/
 header h1  {
   margin-top: 35px;
 }
