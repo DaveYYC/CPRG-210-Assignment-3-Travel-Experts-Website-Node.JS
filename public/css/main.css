@@ -25,6 +25,10 @@ nav a {
   padding: 5px;
 }
 
+nav .login {
+  background-image: linear-gradient(teal, lightblue);
+}
+
 a:hover {
   background-image: linear-gradient(teal, lightblue);
 } 
@@ -156,3 +160,7 @@ nav ul {
   }
 }
 
+.login {
+
+
+}
