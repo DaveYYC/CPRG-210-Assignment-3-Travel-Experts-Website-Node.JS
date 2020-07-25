@@ -14,8 +14,16 @@
       class="current"
     <% } %>
     ><a href="/register">SIGN UP</a></li>
-    <li><a href="/#banner_1">Gallery</a></li>
-    <li><a href="/#contact">Contact Us</a></li>
+    <li
+    <%if (currentPage == "/#banner_1") { %> 
+      class="current"
+    <% } %>
+    ><a href="/#banner_1">Gallery</a></li>
+    <li
+    <%if (currentPage == "/#contact") { %> 
+      class="current"
+    <% } %>
+    ><a href="/#contact">Contact Us</a></li>
   </ul>
 </nav>
 
