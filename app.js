@@ -70,6 +70,46 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
   });
 });
 
+
+
+app.get('/:title', function(request, response,){
+
+  // .findOne returns the first object it finds //
+  Destinations.findOne({'title': request.params.id}, function(error, destinations) {
+    // Check for IDs that are not in the list //
+    if (!destinations) {
+      return response.send('Sorry Invalid ID.');
+    }
+    // Compile view and respond //
+    response.render('destinations',destinations);
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // This is the endpoint that the frontend gallery script calls //
 app.get('/api/destinations', function(request, response,){
 
@@ -81,7 +121,7 @@ Destinations.find(function(error, destinations) {
 // If no file or endpoint found, send a response to the 404 page //
 app.use(function(req, res, next) {
   res.status(404);
-    res.render('404', {currentPage:"404"});
+    res.render('404', {title:"404"});
 });
 
 // Start up server //
