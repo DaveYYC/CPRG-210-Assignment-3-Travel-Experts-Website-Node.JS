@@ -13,9 +13,9 @@ body {
   font-variant: small-caps;
 }
 
-/*--------------------------------------*/
-/* ------ Navigation Bar Section ------ */
-/*--------------------------------------*/
+/*------------------------------*/
+/* ------ Navigation Bar ------ */
+/*------------------------------*/
 nav {
   text-align: center;
   text-decoration: none;
@@ -62,9 +62,9 @@ header a {
   text-decoration: none;
 }
 
-/*----------------------------------------------*/
-/* ------ Contact US Information Section ------ */
-/*----------------------------------------------*/
+/*---------------------------------------*/
+/* ------ Contact US Information  ------ */
+/*---------------------------------------*/
 .container {
   font-family: 'Roboto', sans-serif;
 }
@@ -106,30 +106,31 @@ header a {
 }
 
 /*--------------------------------*/
-/*------ Destinations Page ------ */
+/*------ Destination Page ------ */
 /*--------------------------------*/
 
 figcaption {
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 
   color: white;
 }
 
+figure {
+  font-family: 'Roboto', sans-serif;
+}
+
 figure li {
+  font-size: 16px;
   line-height: 2.5;
   list-style: none;
-
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-
+  
   color: black;
 }
 
 figure p {
-  font-size: 22px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 .container form {
@@ -142,16 +143,13 @@ figure p {
 }
 
 .container label {
-  text-align: right;
   font-size: 18px;
+  text-align: right;
 }
 
-button {
-  color:white;
-}
-/* -------------------------------- */
-/* ------ login form section ------ */
-/* -------------------------------- */
+/* ------------------------ */
+/* ------ Login Form ------ */
+/* ------------------------ */
 .login form {
   text-align: left;
   font-family: 'Roboto', sans-serif;
@@ -207,17 +205,19 @@ button {
 h2 {
   font-size: 40px;
   text-align: center;
-  
+  font-variant: small-caps;
+
   color:red;
 }
 
-/* ---------------------------- */
-/* ------ Footer Section ------ */
-/* ---------------------------- */
+/* -------------------- */
+/* ------ Footer ------ */
+/* -------------------- */
 footer {
   font-size: 24px;
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
+  
   color:white;
 } 
 

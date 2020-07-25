@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-/*----------------------------------*/
-/* ---- Navigation Bar Section ---- */
-/*----------------------------------*/
+/*-------------------------------*/
+/* ------ Navigation Bar  ------ */
+/*-------------------------------*/
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -25,23 +25,15 @@ nav a {
   padding: 5px;
 }
 
-nav h1 {
-  margin-bottom: 10px;
-}
-
 a:hover {
   background-image: linear-gradient(teal, lightblue);
 } 
 
-h4:hover {
-  background-image: linear-gradient(teal, lightblue);
-} 
-
-/*------------------------*/
-/* ---- Hero Section ---- */
-/*------------------------*/
+/*----------------------------*/
+/* ------ Hero Section ------ */
+/*----------------------------*/
 header {
-  min-height: 850px;
+  min-height: 900px;
   overflow: hidden;
 
   background-image: url(https://picsum.photos/id/16/1000/1250);
@@ -51,20 +43,20 @@ header {
 
 /* Announcement text and sign up link */
 header h1  {
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
 header p {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 header p:hover {
   color: coral;
  }
 
-/*------------------------------------------*/
-/* ---- Contact US Information Section ---- */
-/*------------------------------------------*/
+/*--------------------------------------*/
+/* ------ Contact US Information ------ */
+/*--------------------------------------*/
 .container {
   display: flex;
   justify-content: space-around;
@@ -94,17 +86,17 @@ header p:hover {
 
   background: coral;
 }
-/*--------------------------*/
-/* Styling for the 404 page */
-/*--------------------------*/
+/*----------------------------------------*/
+/* ------ Styling for the 404 page ------ */
+/*----------------------------------------*/
 h2 {
   margin-top: 100px;
   height: 55vh;
 }
 
-/*--------------------------*/
-/* ---- Footer Section ---- */
-/*--------------------------*/
+/*----------------------*/
+/* ------ Footer ------ */
+/*----------------------*/
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -122,9 +114,9 @@ footer {
   align-content: center;
 }
 
-/*----------------------------------------------------------------------*/
-/* ---- Necessary to view the home page gallery with a smaller viewport */
-/*----------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+/* - Necessary to view the home page gallery with a smaller viewport - */
+/*---------------------------------------------------------------------*/
 @media (orientation: portrait) {
   .gallery {
     flex-wrap: wrap;
@@ -132,9 +124,9 @@ footer {
   }
 }
 
-/*--------------------------------*/
-/* ----- Menu Toggle Section ---- */
-/*--------------------------------*/
+/*---------------------------*/
+/* ------ Menu Toggle ------ */
+/*---------------------------*/
 nav ul {
   display: none;
 }
@@ -164,4 +156,3 @@ nav ul {
   }
 }
 
-/*-------------------------------------------------------------------------------------*/

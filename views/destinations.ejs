@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Experts - Destinations</title>
+  <title>Travel Experts - <%= title %></title>
   <%- include('./partials/css'); %> 
 </head>
 <body>
@@ -12,7 +12,7 @@
   <figure >
     <img src="http://picsum.photos/id/<%= id %>/350" alt="<%= title %>">
       <ul>
-        <p><%=intro %></p><br>
+        <p><%= intro %></p><br>
         <li>-<%= fact1 %></li>
         <li>-<%= fact2 %></li>
         <li>-<%= fact3 %></li>

@@ -51,9 +51,9 @@ button {
 
   background-color: teal;
 }
-/* -------------------------------- */
-/* ------ login form section ------ */
-/* -------------------------------- */
+/* ------------------------ */
+/* ------ Login Form ------ */
+/* ------------------------ */
 .login {
   height: 70vh;
   
@@ -91,11 +91,11 @@ button {
 .login p {
   margin-top: 20px;
 }
-
+/* Extends the email textarea to match up with the login */
 #mail {
   width: 200px;
 }
-
+/* centers the submit button */
 .login button {
   margin-left: 145px;
 }
@@ -143,11 +143,11 @@ button {
     
   border: 1 px solid #999;
 } 
-
+/* Colors the asterix red */
 span.required {
   color: red;
 }
-
+/* Centers the submit button */
 .register button {
   margin-right: 135px;
 }
