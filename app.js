@@ -57,7 +57,7 @@ app.get('/register', function(request, response){
 });
 
 // Endpoint handler for the individual destinations pages //
-app.get('destinations/:id', function(request, response,){
+app.get('/:id', function(request, response,){
 
 // .findOne returns the first object it finds //
 Destinations.findOne({'id': request.params.id}, function(error, destinations) {
@@ -74,7 +74,7 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
 app.get('/api/destinations', function(request, response,){
 
 Destinations.find(function(error, destinations) { 
-  response.json(destinations);
+  response.json(destinations, {curretnPage: 'destinations'});
   });
 });
 
