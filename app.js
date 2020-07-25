@@ -43,17 +43,17 @@ corsOptions = {
 
 // Endpoint handler for the home page //
 app.get('/', function(request, response){
-  response.render('index',{currentPage: 'index'});
+  response.render('index',{});
 });
 
 // Endpoint handler for the login page //
 app.get('/login', function(request, response){
-  response.render('login',{currentPage: 'login'});
+  response.render('login',{});
 });
 
 // Endpoint handler for the register page //
 app.get('/register', function(request, response){
-  response.render('register',{currentPage: 'register'});
+  response.render('register',{});
 });
 
 // Endpoint handler for the individual destinations pages //
@@ -69,46 +69,6 @@ Destinations.findOne({'id': request.params.id}, function(error, destinations) {
   response.render('destinations',destinations);
   });
 });
-
-
-
-app.get('/:title', function(request, response,){
-
-  // .findOne returns the first object it finds //
-  Destinations.findOne({'title': request.params.id}, function(error, destinations) {
-    // Check for IDs that are not in the list //
-    if (!destinations) {
-      return response.send('Sorry Invalid ID.');
-    }
-    // Compile view and respond //
-    response.render('destinations',destinations);
-    });
-  });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This is the endpoint that the frontend gallery script calls //
 app.get('/api/destinations', function(request, response,){
