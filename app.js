@@ -78,6 +78,9 @@ Destinations.find(function(error, destinations) {
   });
 });
 
+// necessarfy for 4 digit year in footer //
+app.locals.moment = moment;
+
 // If no file or endpoint found, send a response to the 404 page //
 app.use(function(req, res, next) {
   res.status(404);
