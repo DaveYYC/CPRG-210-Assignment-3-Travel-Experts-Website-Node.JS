@@ -57,7 +57,7 @@ app.get('/register', function(request, response){
 });
 
 // Endpoint handler for the individual destinations pages //
-app.get('/:id', function(request, response,){
+app.get('/destinations/:id', function(request, response,){
 
 // .findOne returns the first object it finds //
 Destinations.findOne({'id': request.params.id}, function(error, destinations) {
@@ -78,7 +78,7 @@ Destinations.find(function(error, destinations) {
   });
 });
 
-// necessarfy for 4 digit year in footer //
+// necessary for 4 digit year in footer //
 app.locals.moment = moment;
 
 // If no file or endpoint found, send a response to the 404 page //
